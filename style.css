@@ -1,0 +1,165 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding-top: 10vh;
+}
+.header__h1{
+    background-color: #eeeeee;
+    margin: 0;
+    height: 10vh;
+    width: 100%;
+    padding-top: 1.5rem;
+    border-bottom: 2px solid #616161;
+    text-align: center;
+    position: fixed;
+    z-index: 1000;
+    top: 0;
+}
+
+.main__code-container{
+    background-color: #eeeeee;
+    height: 120VH;
+    margin-top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0.1px;
+}
+.main__code{
+    margin: 1rem;
+    background-color: #fff;
+    width: 70vw;
+    height: 50vh;
+    padding-top: 1rem;
+    font-size: xx-large;
+}
+.main__code--blue{
+    color: #0C50E8;
+}
+.main__explication-container{
+    margin: 0 auto;
+    width: 90vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    height: 200vh;
+    padding: 2rem;
+}
+.main__explication-title{
+    width: 100%;
+}
+.main__explication-title::after{
+    background-color: rgb(99, 99, 99);
+    display: block;
+    position: relative;
+    right: 2rem;
+    bottom: 1rem;
+    height: 2px;
+    width: 90vw;
+    content: "";
+}
+.main__tool-tip{
+    height: "fit-content";
+    width: "fit-content";
+    border: solid 2px #2c2c2c;
+    padding: 0.5rem 0.5rem;
+    background-color:#eeeeee;
+    border-radius: 1rem;
+    position: absolute;
+    top: 10px;
+    z-index: 900;
+    visibility: hidden;
+    font-size: x-large;
+}
+.main__tip{
+    position: relative;
+    bottom: 18rem;
+    z-index: 3000;
+    background-color: #bdbdbd;
+    height: 4vh;
+    margin-top: 20rem;
+    padding: 0.5rem;
+    border-radius: 2rem;
+    color: #313131;
+}
+.main__subtitle{
+    text-align: center;
+    margin-top: 15rem;
+}
+.main__sections-code{
+    background-color: #dbdbdb;
+    width: 90vw;  
+    height: 250vh;
+    font-size: larger;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    position: relative;
+}
+.main__entrada, .main__proceso, .main__salida{
+    background-color: #414141;
+    margin: 1rem auto;
+    height: 5vh;
+    width: 50vw;
+    padding: 0.7rem;
+    text-align: center;
+    border-radius: 2rem;
+    color: white;
+}
+.main__proceso-section{
+    height: 20vh;
+}
+
+.main__enter-code, .main__process-code, .main__salida-code{
+    background-color: #ffffff;
+    width: 70vw;
+    height: auto;
+    margin: 0 auto;
+    font-size: xx-large;
+    padding-top: 2rem;
+}
+.main__otherLanguages{
+    width: fit-content;
+    height: 190vh;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;   
+    align-items: center;
+    background-color: #dbdbdb;
+    margin-top: 30rem auto;
+}
+.main__title{
+    background-color: #414141;
+    height: 10vh;
+    width: 70%;
+    margin: 0 auto;
+    text-align: center;
+    color: white;
+    padding: 2rem;
+    position: relative;
+    bottom: 2rem;  
+    border-radius: 20rem;
+}
+.main__code{
+    background-color: #ffffff;
+    width: 50vw;
+}
+.main__sect{
+    background-color: #ffffff;
+    border: solid 5px black;
+}
+.main__sect-code{
+    font-size: larger;
+}
+
+.footer{
+    position: fixed;
+    bottom: 0;
+    background-color: #414141;
+    width: 100vw;
+    color: #fff;
+    padding-left: 50%;
+}

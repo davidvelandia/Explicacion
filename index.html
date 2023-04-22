@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio Pseint</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="header">
+        <h1 class="header__h1">Algoritmos en PSeint</h1>
+    </header>
+
+    <main class="main">
+        <div class="main__code-container">
+            <pre class="main__code">
+    <span class="main__code--blue">Algoritmo</span> SumaDosNumeros
+        <span class="main__code--blue"> Definir</span> num1, num2, resultado Como Entero
+
+        <span class="main__code--blue">Escribir</span> "Ingrese el primer número:"
+        <span class="main__code--blue">Leer</span> num1
+
+        <span class="main__code--blue">Escribir</span> "Ingrese el segundo número:"
+        <span class="main__code--blue">Leer</span> num2
+
+        <span class="main__code--blue">resultado</span> = num1 + num2
+
+        <span class="main__code--blue">Escribir</span> "El resultado de la suma es:", resultado
+        <span class="main__code--blue">FinAlgoritmo</span>
+            </pre>
+        </div>
+
+        <div class="main__explication-container">
+            <div class="main__explication-title">
+                <p class="main__tip">Tip: deja el raton presionado sobre cualquier termino para saber que hace</p>
+                <h2 class="main__subtitle">Analizando el codigo</h2>
+            </div>
+
+            <div class="main__sections-code">
+            <div class="main__tool-tip"></div>
+                <section class="main__entrada-section">
+                    <h3 class="main__entrada">Entrada</h3>
+                    <pre class="main__enter-code">
+        <span class="main__algoritmo main__code--blue">Algoritmo</span> SumaDosNumeros
+    
+        <span class="main__definir main__code--blue">Definir</span> num1, num2, resultado <span class="como">Como</span> <span class="entero"> Entero</span>
+    
+        <span class="main__escribir main__escribir1 main__code--blue">Escribir</span> "Ingrese el primer número:"
+        <span class="main__leer main__leer1 main__code--blue">Leer</span> num1
+    
+        <span class="main__escribir main__escribir2 main__code--blue">Escribir</span> "Ingrese el segundo número:"
+        <span class="main__leer main__leer2 main__code--blue">Leer</span> num2
+                    </pre>
+                </section>
+
+                <section class="main__proceso-section">
+                    <h3 class="main__proceso">proceso</h3>
+                    <pre class="main__process-code">
+        <span class="main__resultado main__code--blue">resultado</span> = num1 + num2
+                    </pre>
+                </section>
+
+                <section class="main__salida-section"> 
+                    <h3 class="main__salida">salida</h3>
+                    <pre class="main__salida-code">
+        <span class="main__escribir main__escribir3 main__code--blue">Escribir</span> "El resultado de la suma es:", resultado
+        <span class="main__finAlgoritmo main__code--blue">FinAlgoritmo</span>
+                    </pre>
+                </section>
+            </div>
+        </div>
+        <div class="main__otherLanguages">
+            <section class="main__sect main__javascript">
+                <h3 class="main__title main__JS-title">En JavaScript</h3>
+                <pre class="main__sect-code main__JS-code">
+    let num1 = prompt("Ingrese el primer número:");
+    let num2 = prompt("Ingrese el segundo número:");
+    let resultado = parseInt(num1) + parseInt(num2);
+
+    console.log("El resultado de la suma es: " + resultado);
+                </pre>
+            </section>
+            <section class="main__sect main__python">
+                <h3 class="main__title main__py-title">En python</h3>
+                <pre class="main__sect-code main__py-code">
+    num1 = int(input("Ingrese el primer número: "))
+    num2 = int(input("Ingrese el segundo número: "))
+    resultado = num1 + num2
+
+    print("El resultado de la suma es:", resultado)
+                </pre>
+            </section>
+            <section class="main__sect main__java">
+                <h3 class="main__title main__java-title">En Java</h3>
+                <pre class="main__sect-code main__java-code">
+    import java.util.Scanner;
+
+    public class SumaDosNumeros {
+        public static void main(String[] args) {
+            Scanner input = new Scanner(System.in);
+            int num1, num2, resultado;
+
+            System.out.print("Ingrese el primer número: ");
+            num1 = input.nextInt();
+
+            System.out.print("Ingrese el segundo número: ");
+            num2 = input.nextInt();
+
+            resultado = num1 + num2;
+
+            System.out.println("El resultado de la ses: " + resultado);
+        }
+    }
+                </pre>
+            </section>
+            <section class="main__sect main__go">
+                <h3 class="main__title main__go-title">En Go</h3>
+                <pre class="main__sect-code main__go-code">
+    package main
+
+    import "fmt"
+
+    func main() {
+        var num1, num2, resultado int
+
+        fmt.Print("Ingrese el primer número: ")
+        fmt.Scan(&num1)
+
+        fmt.Print("Ingrese el segundo número: ")
+        fmt.Scan(&num2)
+
+        resultado = num1 + num2
+
+        fmt.Println("El resultado de la suma es:", resultado)
+    }
+                </pre>
+            </section>
+        </div>
+
+
+        <div class="glosario">
+            <h3 class="h3">glosario</h3>
+            <ul class="ul">
+                <li class="li">
+                    Algoritmo: Conjunto ordenado de operaciones sistemáticas que permite hacer un cálculo y hallar la solución de un tipo de problemas.
+                </li>
+                <li class="li">
+                    Variable:  Una variable es un objeto del lenguaje cuyo valor se puede cambiar. Antes de utilizar una variable ésta debe de ser declarada. Al declarar una variable, se le asocia un identificador, es decir, un nombre, con un tipo de almacenamiento cuya forma determina la visibilidad y existencia de la variable.
+                </li>
+                <li class="li">
+                    Tipo de dato:  El tipo de la variable nos indica el conjunto de valores que puede tomar y las operaciones que pueden realizarse con ella. Unas de las mas utilizadas son
+                    <ul class="ul">
+                        <li class="li">
+                            <h4 class="h4">int</h4>
+                            <p class="p">Int indica un tipo de dato que almacena numeros enteros, pueden ser 0, -2, 3...</p>
+                        </li>
+                        <li class="li">
+                            <h4 class="h4">float</h4>
+                            <p class="p">Un dato Float indica un tipo de dato que almacena numeros decimales (tambien se le dice "doubles" con siertas diferencias), pueden ser 0.2, 0.5, -0.1...</p>
+                            <p class="dato">Dato: si a un float se le pasa un numero entero (9) lo convierte implicitamente en (9.0), por lo cual se pueden usar enteros en datos de tipos float pero no datos decimales en tipos Int</p>
+                        </li>
+                        <li class="li">
+                            <h4 class="h4">boolean</h4>
+                            <p class="p">Un dato boolean indica que un dato sera verdadero o falso, como ejemplificación en la vida real podemos hacer un boolean cuando se enciende un foco, solo hay 2 opciones, encendido=verdadero o encendido=falso</p>
+                        </li>
+                        <li class="li">
+                            <h4 class="h4">String</h4>
+                            <p class="p">El string es una cadena de texto, la forma en la que son representados son con los "" indican en si un texto, puede ser "Hola" "abc123" "Nombre" "país"</p>
+                            <p class="dato">Dato: El string tambien peude usar simbolos como () & / % $ ^^, etc.</p>
+                        </li>
+                    </ul>
+                </li>
+                <li class="li">
+                    Palabra reservada:  En los lenguajes informáticos, una palabra reservada es una palabra que tiene un significado gramatical especial para ese lenguaje y no puede ser utilizada como un identificador de objetos en códigos del mismo, como pueden ser las variables. Por ejemplo las palabra reservada en Pseint pueden ser Escribir Leer Algoritmo, y no se pueden usar para crear variables.
+                </li>
+            </ul>
+        </div>
+    </main>
+    <script src="app.js"></script>
+    <footer class="footer">
+        <p>Pagina hecha por david velandia</p>
+    </footer>
+</body>
+</html>
