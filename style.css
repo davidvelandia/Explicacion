@@ -3,7 +3,7 @@
 }
 body{
     margin: 0;
-    padding-top: 10vh;
+    padding: 10vh 0;
 }
 .header__h1{
     background-color: #eeeeee;
